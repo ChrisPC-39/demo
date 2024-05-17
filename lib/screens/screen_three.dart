@@ -13,7 +13,6 @@ class _ScreenThreeState extends State<ScreenThree> {
 
   @override
   Widget build(BuildContext context) {
-    //? Scaffold is a material widget. If you want to use Cupertino, you would need to use something else!
     return Scaffold(
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,

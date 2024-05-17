@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'screens/screen_four.dart';
 import 'screens/screen_one.dart';
 import 'screens/screen_three.dart';
 import 'screens/screen_two.dart';
@@ -20,7 +21,8 @@ class MyApp extends StatelessWidget {
     ! Only problem is that I have never used Cupertino widgets so I don't know all their names.
     * */
     return const MaterialApp(
-      home: ScreenOne(), // * Change this widget to render other screens
+      debugShowCheckedModeBanner: false, // * If you set this to true, a small ugly banner on the top right will appear
+      home: ScreenFour(), // * Change this widget to render other screens
     );
   }
 }
