@@ -26,6 +26,7 @@ class _ScreenFourState extends State<ScreenFour> {
   void initState() {
     super.initState();
 
+    // * No need to use setState() here because they are initialized before rendering
     max = choices.length;
     randomIndex = Random().nextInt(max);
   }
