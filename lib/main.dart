@@ -22,7 +22,10 @@ class MyApp extends StatelessWidget {
     * */
     return const MaterialApp(
       debugShowCheckedModeBanner: false, // * If you set this to true, a small ugly banner on the top right will appear
-      home: ScreenFour(), // * Change this widget to render other screens
+      home: ScreenOne(),
+      // home: ScreenTwo(),
+      // home: ScreenThree(),
+      // home: ScreenFour(),
     );
   }
 }
