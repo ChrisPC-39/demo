@@ -6,8 +6,11 @@ class ScreenTwo extends StatelessWidget {
   //! This won't work
   // String x = 0;
 
-  //But this will work
+  //!But this will work
   final String x = "Hello";
+
+  // * ScreenTwo is Stateless (extends StatelessWidget) which means it can't
+  // * update any content. Everything will remain the same as it was when initialized
 
   @override
   Widget build(BuildContext context) {
